@@ -16,6 +16,12 @@ VERSION:	Versoin Number
   font-display: swap;
 }
 
+html {
+  font-family: "Roboto", sans-serif !important;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   line-height: 1.2;
   font-family: "Roboto", sans-serif;
@@ -423,6 +429,7 @@ textarea.form-control {
 .navigation {
   padding: 40px 130px;
   transition: .3s ease;
+  width: 100vw;
 }
 
 .navigation.nav-bg {
@@ -907,4 +914,119 @@ blockquote {
   font-weight: bold;
 }
 
+html {
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* Apply Roboto font to all specified classes */
+.navigation, 
+.fixed-top, 
+.navbar, 
+.navbar-expand-lg, 
+.navbar-dark, 
+.navbar-brand, 
+.font-tertiary, 
+.h3, 
+.navbar-toggler, 
+.navbar-toggler-icon, 
+.collapse, 
+.navbar-collapse, 
+.text-center, 
+.navbar-nav, 
+.ml-auto, 
+.nav-item, 
+.active, 
+.nav-link, 
+.hero-area, 
+.bg-primary, 
+.container, 
+.row, 
+.col-lg-11, 
+.mx-auto, 
+.text-white, 
+.layer-bg, 
+.w-100, 
+.img-fluid, 
+.layer, 
+.section, 
+.col-lg-12, 
+.section-title, 
+.col-lg-3, 
+.col-sm-6, 
+.mb-4, 
+.mb-lg-0, 
+.card, 
+.shadow, 
+.position-relative, 
+.rounded-top, 
+.progress-wrapper, 
+.wave, 
+.card-footer, 
+.bg-white, 
+.card-title, 
+.text-dark, 
+.mb-1, 
+.text-light, 
+.mr-lg-5, 
+.mr-3, 
+.ti-medall, 
+.icon, 
+.icon-light, 
+.icon-bg, 
+.shadow, 
+.rounded-circle, 
+.d-block, 
+.edu-bg-image, 
+.img-fluid, 
+.w-100, 
+.bg-image, 
+.mb-80, 
+.hover-shadow, 
+.card-body, 
+.px-4, 
+.py-5, 
+.mb-5, 
+.d-inline-block, 
+.active-bg-primary, 
+.section-on-footer, 
+.bg-white, 
+.rounded, 
+.p-5, 
+.shadow-down, 
+.mb-80, 
+.form-control, 
+.px-0, 
+.btn, 
+.btn-primary, 
+.w-100, 
+.footer-section, 
+.border-top, 
+.border-dark, 
+.py-5, 
+.mb-0, 
+.paragraph-lg, 
+.font-secondary {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Apply Roboto font to all specified IDs */
+#navigation, 
+#parallax, 
+#l2, 
+#l3, 
+#l4, 
+#l5, 
+#l6, 
+#l7, 
+#l8, 
+#l9, 
+#name, 
+#email, 
+#message {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif !important;
+}
 /*# sourceMappingURL=maps/style.css.map */
